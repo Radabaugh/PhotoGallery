@@ -16,7 +16,7 @@ public class PhotoGalleryFragment extends Fragment {
 
     private RecyclerView mPhotoRecyclerView;
 
-    private static PhotoGalleryFragment newInstance() {
+    public static PhotoGalleryFragment newInstance() {
         return new PhotoGalleryFragment();
     }
 
